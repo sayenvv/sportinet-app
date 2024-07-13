@@ -13,7 +13,7 @@ export const darkscreenoptions = {
     headerStyle: {
         backgroundColor: '#000', // Header background color
       },
-      headerTintColor: '#125625', // Header text color
+      headerTintColor: '#108c00', // Header text color
       headerTitleStyle: {
         fontWeight: 'bold',
         fontSize: 24,
@@ -26,7 +26,7 @@ export const lightscreenoptions = {
         backgroundColor: '#fff', // Header background color
         
       },
-      headerTintColor: '#125625', // Header text color
+      headerTintColor: '#108c00', // Header text color
       headerTitleStyle: {
         fontWeight: 'bold',
         fontSize: 24,
