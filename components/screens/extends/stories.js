@@ -1,3 +1,5 @@
+// components/StoryItem.js
+
 import React from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 
@@ -19,42 +21,43 @@ const styles = StyleSheet.create({
   container: {
     marginRight: 10,
     alignItems: 'center',
-    marginTop: 10, // Adjusted to marginTop for spacing
+    marginTop: 10,
+    marginBottom: 25,
   },
   outerContainer: {
-    width: 75, // Adjusted to accommodate the outer border
-    height: 75, // Adjusted to accommodate the outer border
+    width: 75,
+    height: 75,
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 3,
-    borderColor: '#108c00', // White color for the outer border
-    borderRadius: 38, // Half of width/height for the circular shape
+    borderColor: '#108c00',
+    borderRadius: 38,
   },
   imageContainer: {
     width: 60,
     height: 60,
-    borderRadius: 35, // Half of width/height for a circular shape
-    overflow: 'hidden', // Clip the image to the rounded border
-    backgroundColor: '#108c00', // Green color for the inner border
-    alignItems: 'center', // Center content horizontally
-    justifyContent: 'center', // Center content vertically
+    borderRadius: 30,
+    overflow: 'hidden',
+    backgroundColor: '#108c00',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   innerRing: {
     position: 'absolute',
     width: 50,
     height: 50,
-    borderRadius: 28, // Half of width/height for the inner ring
+    borderRadius: 25,
     borderWidth: 2,
-    borderColor: '#000', // White color for the inner ring
+    borderColor: '#000',
   },
   image: {
-    width: '100%', // Take up entire space inside imageContainer
-    height: '100%', // Take up entire space inside imageContainer
-    borderRadius: 35,
+    width: '100%',
+    height: '100%',
+    borderRadius: 30,
   },
   username: {
     fontSize: 12,
-    marginTop: 5, // Adjust spacing between image and username
+    marginTop: 5,
   },
 });
 
